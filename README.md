@@ -13,11 +13,9 @@ The tool employs AI-based optimization methods to evaluate potential energy savi
 
 ## Repository Contents
 
-- Windows executable (`/bin/C2P-CEAM_v1.2.1.exe`)
 - Python source code (`/src/` folder)
 - PDF user manuals and documentation (`/docs/` folder)
-- Example input files (`/examples/inputs/`)
-- Example output files (`/examples/outputs/`)
+- Example input files (`/inputs/`)
 - License file (`LICENSE`)
 - README file (`README.md`)
 
@@ -26,15 +24,17 @@ The tool employs AI-based optimization methods to evaluate potential energy savi
 You can use CEAM in two ways:
 
 1. **Python scripts**  
-   Run the `.py` scripts directly using Python 3.x.
+   Run the `.py` scripts directly using Python 3.12.
    The scripts contains the main GUI script, the computing logic script, and dozens functional scripts.    
    Please refer to the user manual for setup instructions and dependencies.
+   Additional packages and libraries might be required. 
 
-3. **Executable**  
-   For Windows users, a precompiled executable is included:  
-   `/bin/C2P-CEAM_v1.2.1.exe`  
-   Simply double-click the `.exe` file to launch the application - 'Run as Admin' option might be required.  
+2. **Executable**  
+   For Windows users, a precompiled executable is available here:   
+   https://drive.google.com/drive/u/1/folders/1wIT0tG_Lo9iJ8fh8vHU-SB-zgOoksMFa   
+   Simply download the software and run it by double-click the `C2P-CEAM_v1.2.1.exe` file to launch the application - 'Run as Admin' option might be required.  
    No installation is required — but ensure your input and output folders are prepared as described in the manual.
+   Outputs generated from the provided inputs are also shared via the Google Drive. 
 
 ## License
 
@@ -51,6 +51,7 @@ If you use CEAM in your research or projects, please cite:
 
 ## Contact
 
-For questions, suggestions, or contributions, please contact via email: climate2preserv@gmail.com or directly to **Marcin Zygmunt** (https://www.linkedin.com/in/marcin-zygmunt-06596115a/).
+For questions, suggestions, or contributions, please contact via **email**: climate2preserv@gmail.com 
+or directly to **Marcin Zygmunt** (https://www.linkedin.com/in/marcin-zygmunt-06596115a/).
 
 ---
